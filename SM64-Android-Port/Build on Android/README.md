@@ -24,4 +24,4 @@ NOTE!! Do **NOT** press "Download F-Droid"
 as this will download the incorrect file,  
 scroll down more, and click "Download APK"  
 on the newest available version.  
-[Don't-Click-This-Image](!https://lh3.googleusercontent.com/zZ9J2MYbqRAP4nwIPVfbF2mLSY_OfImiA9CsO6Df7SHUzFurT88DKkqwsQyEkeZaPHHkngjWYxbKAJZNr91ESxVSWLL__3SG9eDoQA2JMsspg9S0x74Iid45sPvOn7VEcixn-NtV3w=w2400)
+![Don't-Click-This-Image](https://lh3.googleusercontent.com/zZ9J2MYbqRAP4nwIPVfbF2mLSY_OfImiA9CsO6Df7SHUzFurT88DKkqwsQyEkeZaPHHkngjWYxbKAJZNr91ESxVSWLL__3SG9eDoQA2JMsspg9S0x74Iid45sPvOn7VEcixn-NtV3w=w2400)
