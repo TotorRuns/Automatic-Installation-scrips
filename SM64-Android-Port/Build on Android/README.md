@@ -23,5 +23,10 @@ from [here](https://f-droid.org/en/packages/com.termux/)
 NOTE!! Do **NOT** press "Download F-Droid"  
 as this will download the incorrect file,  
 scroll down more, and click "Download APK"  
-on the newest available version.  
+on the newest available version.
+
+Click this  
 ![Don't-Click-This-Image](https://lh3.googleusercontent.com/zZ9J2MYbqRAP4nwIPVfbF2mLSY_OfImiA9CsO6Df7SHUzFurT88DKkqwsQyEkeZaPHHkngjWYxbKAJZNr91ESxVSWLL__3SG9eDoQA2JMsspg9S0x74Iid45sPvOn7VEcixn-NtV3w=w2400)
+
+NOT this  
+![Click-This-Image](https://lh3.googleusercontent.com/HdZPIWZo31pbR8FPmlcG8BcysuI4fu-NjB1cPZN5wbo0HlH8x-AYNBX0MUGHXLK8BnlgruIk3CSiKDiA6UdbSQ6GBIQrnf2zHAp6sob66PUTF-SMCQTBnLaZOO-dNCz86zJtKl4TJw=w2400)
