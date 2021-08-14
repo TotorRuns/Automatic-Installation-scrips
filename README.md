@@ -1,6 +1,6 @@
 # Automatic-Installation-scripts
 
-Follow each instructions in the Branches.
+Please choose a branch to get started!
 
 Hi,
 in this repository, I will provide shell scripts for automated installation of programs.  
