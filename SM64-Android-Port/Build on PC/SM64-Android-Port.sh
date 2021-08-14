@@ -13,9 +13,8 @@ else
 is run from your home directory next time!"
         chmod +x ~/SM64-Android-Port.sh
         ~/SM64-Android-Port.sh
-
     else
         echo "Couldn't find the file in the home directory or the current directory!
-                    Please make sure that you didn't rename the file and try again."
+Please make sure that you didn't rename the file and try again."
     fi
 fi
