@@ -16,7 +16,7 @@ if
     cp baserom.us.z64 ~/sm64ex-coop
     echo "Done."
     echo "Compiling (THIS WILL TAKE A WHILE)"
-    cd sm64ex-coop && make TARGET_BITS=32 DISCORDRPS=1
+    cd sm64ex-coop && make TARGET_BITS=32 DISCORDRPC=1
     
 
         else if
@@ -36,7 +36,7 @@ if
             cp baserom.jp.z64 ~/sm64ex-coop
             echo "Done."
             echo "Compiling (THIS WILL TAKE A WHILE)"
-            cd sm64ex-coop && make TARGET_BITS=32 DISCORDRPS=1
+            cd sm64ex-coop && make TARGET_BITS=32 DISCORDRPC=1
 
             else if
                 echo "baserom.jp.z64 doesn't exist, checking for PAL...."
@@ -55,7 +55,7 @@ if
                 cp baserom.eu.z64 ~/sm64ex-coop
                 echo "Done."
                 echo "Compiling (THIS WILL TAKE A WHILE)"
-                cd sm64ex-coop && make TARGET_BITS=32 DISCORDRPS=1
+                cd sm64ex-coop && make TARGET_BITS=32 DISCORDRPC=1
                 
                 else if
                     echo "baserom.eu.z64 doesn't exist, checking for JP-V2"
@@ -74,7 +74,7 @@ if
                     cp baserom.sh.z64 ~/sm64ex-coop
                     echo "Done."
                     echo "Compiling (THIS WILL TAKE A WHILE)"
-                    cd sm64ex-coop && make TARGET_BITS=32 DISCORDRPS=1
+                    cd sm64ex-coop && make TARGET_BITS=32 DISCORDRPC=1
 
                         else
                             echo 'You have no baseroms in the directory!
