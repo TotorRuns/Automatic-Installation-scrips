@@ -11,7 +11,7 @@ is run from your home directory next time!"
     ~/SM64-Android-Port.sh
 fi
 
-echo "Installing dependencies"
+echo "Installing dependencies...."
 
 echo "Need your username in order to tell what command to use,
 please type your username, if it's incorrect, it could break the code
@@ -19,10 +19,10 @@ please type your username, if it's incorrect, it could break the code
 
 read username # Reads keyboard input from the user and saves it to the "username" variable
 
-if $username = !root; then                                                            # If the username is not root...
+if $username != "root"; then                                                          # If the username is not root...
     sudo apt install build-essential git python3 libglew-dev:i386 libsdl2-dev:i386 -y # Use sudo!
 else
-    if $username = root; then                                                        # If the username is root...
+    if $username == "root"; then                                                     # If the username is root...
         apt install build-essential git python3 libglew-dev:i386 libsdl2-dev:i386 -y # Don't use sudo!
     fi
 fi
@@ -41,17 +41,17 @@ echo "Nightly branch of sm64ex, same as last one, but with the latest code, and 
 read branchToUse # Reds keyboard input and saves it to the "branchToUse" variable.
 
 if
-    branchToUse = "master"
+    $branchToUse = "master"
 then
     git clone --recursive https://github.com/VDavid003/sm64-port-android-base
 else
     if
-        branchToUse = "sm64ex"
+        $branchToUse = "sm64ex"
     then
         git clone --recursive https://github.com/VDavid003/sm64-port-android-base/tree/sm64ex
     else
         if
-            branchToUse = "sm64ex_nightly"
+            $branchToUse = "sm64ex_nightly"
         then
             echo "Cloning...."
             git clone --recursive https://github.com/VDavid003/sm64-port-android-bae/tree/sm64ex_nightly
