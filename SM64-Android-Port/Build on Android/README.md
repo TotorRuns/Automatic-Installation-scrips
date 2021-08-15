@@ -18,6 +18,8 @@ by doing this.
 
 ## Getting prepared
 
+### Downloading Termux
+
 Get the F-Droid version of Termux
 from [here](https://f-droid.org/en/packages/com.termux/)  
 NOTE!! Do **NOT** press "Download F-Droid"  
