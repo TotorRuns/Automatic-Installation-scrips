@@ -1,7 +1,7 @@
-# Automatic-Installation-scrips
+# Automatic-Installation-scripts
 
-Follow the instructions for any port that you want to compile.
+Please choose a branch to get started!
 
-Hi,  
-in this repository, I will provide shell scripts for automated installations for Ubuntu and or Debian.  
-Windows scripts should be coming soon.
+Hi,
+in this repository, I will provide shell scripts for automated installation of programs.  
+These will be for for Ubuntu and or Debian, with Windows ones coming out in a few days.
