@@ -22,8 +22,17 @@ to help code the sh scripts.
 
 Operating System used by Sanikdah  
 to test out the code the he wrote.  
-If nobody had a Linux PC, the code  
+If I couldn't test it, the code  
 would all be broken!
+
+### Ubuntu 20.04 LTS
+
+Operating System used by TotorRuns  
+to test out the original code  
+written by her. There would have  
+been no testing done at all without  
+this, so a lot of stuff would likely  
+be broken.
 
 ### Bash
 
