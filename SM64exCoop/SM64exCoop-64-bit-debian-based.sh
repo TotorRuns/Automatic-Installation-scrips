@@ -8,7 +8,7 @@ then
     sudo apt update && sudo apt upgrade
     echo "Done."
     echo "Installing dependencies...."
-    sudo apt install build-essential git python3 libglew-dev:i386 libsdl2-dev:i386 -y
+    sudo apt install build-essential git python3 libglew-dev libsdl2-dev -y
     echo "Done."
     echo "Cloning GitHub repo...."
     git clone https://github.com/djoslin0/sm64ex-coop.git
@@ -17,7 +17,7 @@ then
     cp baserom.us.z64 ~/sm64ex-coop
     echo "Done."
     echo "Compiling (THIS WILL TAKE A WHILE)"
-    cd sm64ex-coop && make TARGET_BITS=64 DISCORDRPC=1
+    cd sm64ex-coop && make TARGET_BITS=64 DISCORDRPC=1 VERSION=us
 
 else
     if
@@ -29,7 +29,7 @@ else
         sudo apt update && sudo apt upgrade
         echo "Done."
         echo "Installing dependencies...."
-        sudo apt install build-essential git python3 libglew-dev:i386 libsdl2-dev:i386 -y
+        sudo apt install build-essential git python3 libglew-dev libsdl2-dev -y
         echo "Done."
         echo "Cloning GitHub repo...."
         git clone https://github.com/djoslin0/sm64ex-coop.git
@@ -38,7 +38,7 @@ else
         cp baserom.jp.z64 ~/sm64ex-coop
         echo "Done."
         echo "Compiling (THIS WILL TAKE A WHILE)"
-        cd sm64ex-coop && make TARGET_BITS=64 DISCORDRPC=1
+        cd sm64ex-coop && make TARGET_BITS=64 DISCORDRPC=1 VERSION=jp
 
     else
         if
@@ -50,7 +50,7 @@ else
             sudo apt update && sudo apt upgrade
             echo "Done."
             echo "Installing dependencies...."
-            sudo apt install build-essential git python3 libglew-dev:i386 libsdl2-dev:i386 -y
+            sudo apt install build-essential git python3 libglew-dev libsdl2-dev -y
             echo "Done."
             echo "Cloning GitHub repo...."
             git clone https://github.com/djoslin0/sm64ex-coop.git
@@ -59,7 +59,7 @@ else
             cp baserom.eu.z64 ~/sm64ex-coop
             echo "Done."
             echo "Compiling (THIS WILL TAKE A WHILE)"
-            cd sm64ex-coop && make TARGET_BITS=64 DISCORDRPC=1
+            cd sm64ex-coop && make TARGET_BITS=64 DISCORDRPC=1 VERSION=eu
 
         else
             if
@@ -71,7 +71,7 @@ else
                 sudo apt update && sudo apt upgrade
                 echo "Done."
                 echo "Installing dependencies...."
-                sudo apt install build-essential git python3 libglew-dev:i386 libsdl2-dev:i386 -y
+                sudo apt install build-essential git python3 libglew-dev libsdl2-dev -y
                 echo "Done."
                 echo "Cloning GitHub repo...."
                 git clone https://github.com/djoslin0/sm64ex-coop.git
@@ -80,7 +80,7 @@ else
                 cp baserom.sh.z64 ~/sm64ex-coop
                 echo "Done."
                 echo "Compiling (THIS WILL TAKE A WHILE)"
-                cd sm64ex-coop && make TARGET_BITS=64 DISCORDRPC=1
+                cd sm64ex-coop && make TARGET_BITS=64 DISCORDRPC=1 VERSION=sh
 
             else
                 echo 'You have no baseroms in the directory!
